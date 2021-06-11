@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "commonjs",
+    "moduleResolution": "Node",
+    "lib": [
+      "ESNext",
+      "ESNext.AsyncIterable",
+      "DOM"
+    ],
+    "esModuleInterop": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "strict": true,
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": [
+        "./*"
+      ],
+      "@/*": [
+        "./app/*"
+      ]
+    },
+    "types": [
+      "./@types/nuxt",
+      "./@types/shims-vue", 
+      "@types/express",
+      "@types/node",
+      "@nuxt/types",
+      "vuetify"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "nuxt/.nuxt",
+    "dist",
+    "cdk.out",
+    "webpack.config.js"
+  ]
+}
