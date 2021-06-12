@@ -14,9 +14,6 @@
     "deploy": "cdk deploy"
   },
   "dependencies": {
-    "@aws-cdk/aws-certificatemanager": "^1.108.0",
-    "@aws-cdk/aws-route53": "^1.108.0",
-    "@aws-cdk/aws-route53-targets": "^1.108.0",
     "@nuxt/typescript-runtime": "^2.0.0",
     "@nuxtjs/axios": "^5.12.2",
     "@vendia/serverless-express": "^4.3.4",
@@ -29,10 +26,13 @@
   },
   "devDependencies": {
     "@aws-cdk/assert": "1.105.0",
+    "@aws-cdk/aws-certificatemanager": "^1.108.0",
     "@aws-cdk/aws-apigateway": "^1.107.0",
     "@aws-cdk/aws-cloudfront": "^1.107.0",
     "@aws-cdk/aws-iam": "^1.107.0",
     "@aws-cdk/aws-lambda": "^1.107.0",
+    "@aws-cdk/aws-route53": "^1.108.0",
+    "@aws-cdk/aws-route53-targets": "^1.108.0",
     "@aws-cdk/aws-s3": "^1.107.0",
     "@aws-cdk/aws-s3-deployment": "^1.107.0",
     "@aws-cdk/core": "1.105.0",
